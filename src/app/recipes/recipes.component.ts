@@ -11,5 +11,7 @@ export class RecipesComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  testclick(receiptData){
+    console.log(receiptData)
+  }
 }
