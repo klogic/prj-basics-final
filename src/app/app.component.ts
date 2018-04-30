@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  loadedHeader = 'recipe'
+  onNavigateclick(data:string){
+    this.loadedHeader = data
+  }
 }
