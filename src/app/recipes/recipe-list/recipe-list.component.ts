@@ -22,7 +22,6 @@ export class RecipeListComponent implements OnInit {
 
   onSelectedlist(recipeData){
     this.receiptdetail.emit(recipeData)
-    console.log(recipeData)
   }
  
 }

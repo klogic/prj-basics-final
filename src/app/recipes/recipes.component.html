@@ -4,7 +4,7 @@
   </div>
   <div class="col-md-7">
     <app-recipe-detail
-    *ngIf="recipedataselected; else noselect" [recipe]="receiptdetail"></app-recipe-detail>
+    *ngIf="recipedataselected; else noselect" [recipe]="recipedataselected"></app-recipe-detail>
     <ng-template #noselect>
       please select recipe
     </ng-template>
